@@ -23,7 +23,7 @@ class Karyawan{
 
     }
 
-    void setNama(String nama){
+    public void setNama(String nama){
         if (nama.length()>=4){
             this.nama = nama;
         }
